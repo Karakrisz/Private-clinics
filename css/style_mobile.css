@@ -1,0 +1,28 @@
+/* header */
+.logo_and_search {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.logo_and_search img {
+  max-width: 350px;
+}
+/* search */
+.search {
+  top: 0.1em;
+}
+.search input {
+  width: 250px;
+}
+/* navbar */
+.menu {
+  padding-left: 20px;
+}
+/* menu_icon */
+.bar {
+ float: none;
+ top: -7em;
+ float: right;
+ left: 0;
+ padding-right: 30px;
+}

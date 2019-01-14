@@ -1,5 +1,5 @@
 body {
-  max-width: 1350px;
+  max-width: 1390px;
   margin: auto;
 }
 /* header */
@@ -139,9 +139,121 @@ body {
     left: 30px;
   }
   .search button {
-    width: 80px;
+    width: 85px;
   }
   .logo {
     top: 0em;
   }
+}
+/* next text */
+.text h1 {
+  color:  #947864;
+  text-align: center;
+  padding-top: 60px;
+}
+.text p {
+  text-align: center;
+  padding-top: 8px;
+}
+/* slider */
+.my_slider {
+  padding: 0 30px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+#demo {
+  position: relative;
+  top: 3em;
+  border: 10px solid #ddd8d6;
+}
+/* my_body */
+.my_body {
+  position: relative;
+  top: 7.7em;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.diseases {
+  border-top: 10px solid #ddd8d6;
+  position: relative;
+  right: 15px;
+}
+.diseases a {
+  text-decoration: none;
+}
+.center_p {
+  text-align: center;
+}
+.black_box {
+  background-color: #313131;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+.diseases_body {
+  display: flex;
+  position: relative;
+  bottom: 120px;
+  left: 150px;
+
+}
+.betegseg {
+  background-color: white;
+  padding: 40px;
+  position: relative;
+  bottom: 20px;
+}
+
+.bovebben {
+  position: relative;
+  left: 17px;
+  color: #947864;
+}
+.bovebben:hover {
+  color: #a89281;
+}
+.bovebben_click {
+  position: relative;
+  top: 1em;
+  display: none;
+}
+.doctors {
+  border-top: 10px solid #ddd8d6;
+  position: relative;
+  left: 15px;
+}
+.center_p  {
+  text-align: center;
+}
+.doctors a {
+  background-color: white;
+  padding: 40px;
+  position: relative;
+  bottom: 20px;
+}
+/* Profil card */
+.doctors_center {
+  display: flex;
+}
+.card {
+  transition: 0.3s;
+  width: 100%;
+  position: relative;
+  right: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #947864;
+  color: white;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.right_card {
+  position: relative;
+  left: 30px;
 }

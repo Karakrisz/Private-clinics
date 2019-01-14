@@ -2,8 +2,8 @@ function myFunction(x) {
   x.classList.toggle("change");
 }
 // menu
-$(document).ready(function(){
-  $(".bar").click(function(){
+$(document).ready(function() {
+  $(".bar").click(function() {
     $(".topnav").slideToggle("slow");
   });
 });

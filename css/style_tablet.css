@@ -18,3 +18,16 @@
   padding-right: 70px;
   padding-top: 5px;
 }
+/* next text */
+.text h1 {
+  padding-top: 80px;
+  font-size: 37px;
+}
+/* my_body */
+.my_body {
+  padding-left: 30x;
+  padding-right: 50px;
+}
+.diseases {
+  right: 0;
+}

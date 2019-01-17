@@ -29,5 +29,44 @@
   padding-right: 50px;
 }
 .diseases {
-  right: 0;
+  right: 10px;
+}
+.doctors {
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+  padding: 0;
+  right: 100px;
+}
+/* footer */
+.footer {
+  position: relative;
+  top: 3em;
+  height: 1030px;
+}
+.rolunk {
+  padding: 0;
+  position: relative;
+  top: 3em;
+  right: 15px;
+}
+.footer_H5 {
+  top: 7em;
+  right: 20px;
+}
+.hasznos {
+  position: relative;
+  top: 9em;
+}
+.hirlevel {
+  position: relative;
+  top: 14em;
+  padding: 0;
+}
+.icons_2 {
+  position: relative;
+  top: 35em;
+}
+.icons_2 p {
+  top: 0.5em;
 }

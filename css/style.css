@@ -117,34 +117,7 @@ body {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
-/* my media q */
-@media screen and (max-width: 1140px) {
-  .topnav a {
-    padding: 20px;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 970px) {
-  .topnav  {
-   display: none;
-  }
-  .topnav a {
-    width: 100%;
-    border-top: 1px solid white;
-  }
-  .bar {
-    display: block;
-    float: left;
-    position: relative;
-    left: 30px;
-  }
-  .search button {
-    width: 85px;
-  }
-  .logo {
-    top: 0em;
-  }
-}
+
 /* next text */
 .text h1 {
   color:  #947864;
@@ -214,15 +187,19 @@ body {
 .bovebben:hover {
   color: #a89281;
 }
-.bovebben_click {
+.bovebben_rolunk {
+  color: #947864;
   position: relative;
-  top: 1em;
-  display: none;
+  left: 17px;
+}
+.bovebben_rolunk:hover {
+  color: #a89281;
 }
 .doctors {
   border-top: 10px solid #ddd8d6;
   position: relative;
   left: 15px;
+  padding: 0 3px;
 }
 .center_p  {
   text-align: center;
@@ -233,9 +210,15 @@ body {
   position: relative;
   bottom: 20px;
 }
+.my_top {
+  position: relative;
+  bottom: 70px;
+}
+
 /* Profil card */
 .doctors_center {
   display: flex;
+  padding: 0 10px;
 }
 .card {
   transition: 0.3s;
@@ -255,5 +238,115 @@ body {
 }
 .right_card {
   position: relative;
-  left: 30px;
+  left: 25px;
+}
+/* footer */
+.footer {
+  border-top: 10px solid #dedede;
+  padding: 0 30px;
+  background-color: #efefef;
+  height: 520px;
+  position: relative;
+  top: 3em;
+}
+.footer_body {
+  position: relative;
+  top: 2em;
+}
+.footer a {
+  text-decoration: none;
+}
+/* rolunk */
+.rolunk p {
+  position: relative;
+  top: 1em;
+}
+.footer_H5 {
+  position: relative;
+  top: 2em;
+  padding-left: 20px;
+}
+.footer_H5 h5 {
+  line-height: 200%;
+}
+/* hasznos linkek */
+.hasznos_link {
+  color: #947864;
+}
+.hasznos_link:hover {
+color: #a89281;
+}
+.hasznos p {
+  border-bottom: 3px solid #e3e3e3;
+  line-height: 200%;
+  position: relative;
+  top: 1em;
+}
+/* hirlevel */
+.hirlevel p {
+  position: relative;
+  top: 1em;
+}
+.formok {
+  position: relative;
+  top: 1em;
+}
+.form-control {
+  background-color: #dedede;
+}
+.btn {
+  background-color:  #8d7160;
+  color: white;
+}
+.icons_2 {
+  position: relative;
+  top: 3em;
+  background-color: #39221b;
+  height: 70px;
+}
+.icons_2 p {
+  color: white;
+  position: relative;
+  top: 1.7em;
+  left: 40px;
+}
+/* my media q */
+@media screen and (max-width: 1140px) {
+  .topnav a {
+    padding: 20px;
+    font-size: 12px;
+  }
+  .icons_2 {
+    position: relative;
+    top: 35em;
+  }
+}
+@media screen and (max-width: 970px) {
+  .topnav  {
+   display: none;
+  }
+  .topnav a {
+    width: 100%;
+    border-top: 1px solid white;
+  }
+  .bar {
+    display: block;
+    float: left;
+    position: relative;
+    left: 30px;
+  }
+  .search button {
+    width: 85px;
+  }
+  .logo {
+    top: 0em;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hirlevel {
+    position: relative;
+    top: 4em;
+    padding-left: 20px;
+  }
+
 }

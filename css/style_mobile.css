@@ -52,24 +52,100 @@
 .diseases {
   right: 0;
   padding: 0;
+  border: 0;
 }
+.betegseg {
+  background-color: #ddd8d6;
+  padding: 20px;
+  float: left;
+  bottom: 60px;
+  right: 10px;
+}
+
 .diseases_body {
   bottom: 0px;
-  left: 0px;
+  left: 7px;
   flex-direction: column;
-  top: 1em;
+  top: 2em;
+}
+.black_box {
+  position: relative;
+  top: 0.5em;
+  position: relative;
+  right: 10px;
+}
+.diseases_text {
+  position: relative;
+  right: 20px;
+}
+.my_top {
+  position: relative;
+  top: 3em;
 }
 
 .doctors_center {
   flex-direction: column;
-}
-.doctors {
-  left: 0;
   padding: 0;
-  padding-left: 10px;
-  top: 4em;
+  position: relative;
+  top: 2em;
+  float: left;
+}
+
+.doctors {
+  left: 0px;
+  padding: 0;
+  top: 7em;
+  border: 0;
+}
+.doctors a {
+  background-color: #ddd8d6;
+  padding: 20px;
+  position: relative;
+  float: left;
+  top: 0.5em;
+
+}
+.card {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  padding: 0;
 }
 .right_card {
   left: 0;
   padding-top: 30px;
+}
+/* footer */
+.footer {
+  position: relative;
+  top: 18em;
+  min-height: 1000px;
+}
+.rolunk p{
+  padding: 0;
+}
+.rolunk h5 {
+  padding: 0;
+}
+.bovebben_rolunk {
+  left: 0;
+}
+.footer_H5 {
+  padding-left: 0px;
+}
+.hasznos {
+  position: relative;
+  top: 4em;
+}
+.hirlevel {
+  padding: 0;
+  top: 9em;
+}
+.icons_2 {
+  position: relative;
+  top: 55em;
+}
+.icons_2 p {
+  left: 20px;
+  font-size: 12px;
 }

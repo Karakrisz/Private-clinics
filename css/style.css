@@ -311,7 +311,7 @@ color: #a89281;
   left: 40px;
 }
 /* my media q */
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1190px) {
   .topnav a {
     padding: 20px;
     font-size: 12px;

@@ -14,7 +14,7 @@
   top: 2em;
 }
 .bar {
-  float: right;
+  float: left;
   padding-right: 70px;
   padding-top: 5px;
 }
@@ -30,6 +30,12 @@
 }
 .diseases {
   right: 10px;
+}
+.diseases_body {
+  width: 80%;
+}
+.diseases_text {
+  width: 80%;
 }
 .doctors {
   position: relative;
@@ -65,8 +71,9 @@
 }
 .icons_2 {
   position: relative;
-  top: 35em;
+  top: 40em;
 }
 .icons_2 p {
   top: 0.5em;
+    left: 0;
 }

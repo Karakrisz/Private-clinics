@@ -1,6 +1,3 @@
-function myFunction(x) {
-  x.classList.toggle("change");
-}
 // menu
 $(document).ready(function() {
   $(".bar").click(function() {

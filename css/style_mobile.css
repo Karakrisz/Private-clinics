@@ -8,20 +8,35 @@
   max-width: 350px;
 }
 /* search */
-.search {
-  top: 0.1em;
-}
+
 .search input {
-  width: 230px;
+  width: 100%;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search button {
+  float: right;
+  bottom: 43px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  right: 0;
 }
 /* navbar */
+.border_radius_fooldal {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.border_radius_elerhetosegienk {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
 .menu {
   padding-left: 20px;
 }
 /* menu_icon */
 .bar {
  float: none;
- top: -7em;
+ top: -2em;
  float: right;
  left: 0;
  padding-right: 30px;
@@ -59,7 +74,8 @@
   padding: 20px;
   float: left;
   bottom: 60px;
-  right: 10px;
+  right: 0;
+  width: 100%;
 }
 
 .diseases_body {
@@ -102,8 +118,8 @@
   padding: 20px;
   position: relative;
   float: left;
-  top: 0.5em;
-
+  
+  width: 100%;
 }
 .card {
   position: relative;
@@ -119,7 +135,7 @@
 .footer {
   position: relative;
   top: 18em;
-  min-height: 1000px;
+  height: 1020px;
 }
 .rolunk p{
   padding: 0;
@@ -137,6 +153,7 @@
   position: relative;
   top: 4em;
 }
+
 .hirlevel {
   padding: 0;
   top: 9em;

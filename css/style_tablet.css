@@ -3,11 +3,16 @@
 /* search */
 .search input {
   width: 250px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
-.search {
-  float: left;
-  position: relative;
-  top: 0.1em;
+.border_radius_fooldal {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.border_radius_elerhetosegienk {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 .topnav {
   position: relative;
@@ -16,7 +21,7 @@
 .bar {
   float: left;
   padding-right: 70px;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 /* next text */
 .text h1 {

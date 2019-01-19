@@ -1,4 +1,10 @@
 /* header */
+.icons a {
+  float: right;
+  padding: 10px;
+  margin: 0 5px;
+}
+
 .logo_and_search {
   display: flex;
   flex-direction: column;
@@ -118,7 +124,7 @@
   padding: 20px;
   position: relative;
   float: left;
-  
+
   width: 100%;
 }
 .card {

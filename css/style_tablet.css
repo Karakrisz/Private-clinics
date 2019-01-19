@@ -1,4 +1,9 @@
 /* header */
+.icons a {
+  float: right;
+  padding: 10px;
+  margin: 0 5px;
+}
 
 /* search */
 .search input {

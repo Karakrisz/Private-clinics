@@ -1,5 +1,10 @@
+@font-face { /* címekhez */
+    src: url(../font/Georgia.ttf);
+    font-family: Georgia;
+}
 
 body {
+  font-family: Georgia;
   max-width: 1390px;
   margin: auto;
 }
@@ -10,7 +15,17 @@ body {
 }
 .icons {
   background-color: #39221b;
-  height: 70px;
+  height: 70px
+}
+.icons a {
+  float: right;
+  padding: 20px;
+  margin: 0 5px;
+  background-color: #947864;
+  border-radius: 50%;
+  color: white;
+  position: relative;
+  top: 0.3em;
 }
 .logo_and_search {
   padding: 0 30px;
@@ -66,7 +81,6 @@ body {
   overflow: hidden;
   width: 100%;
 }
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -139,7 +153,7 @@ body {
 #demo {
   position: relative;
   top: 3em;
-  border: 10px solid #ddd8d6;
+  border: 10px solid #ddd8d6
 }
 /* my_body */
 .my_body {

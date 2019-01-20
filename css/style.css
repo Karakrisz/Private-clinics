@@ -27,6 +27,8 @@ body {
   position: relative;
   top: 0.3em;
   text-decoration: none;
+  position: relative;
+  right: 30px;
 }
 .icons a:hover {
   background-color: red;

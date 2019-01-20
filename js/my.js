@@ -1,7 +1,7 @@
 // menu
 $(document).ready(function() {
   $(".bar").click(function() {
-    $(".topnav").slideToggle("slow");
+    $(".topnav").slideToggle("150");
   });
 });
 // exchanges

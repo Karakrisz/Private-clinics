@@ -19,13 +19,17 @@ body {
 }
 .icons a {
   float: right;
-  padding: 20px;
+  padding: 10px;
   margin: 0 5px;
   background-color: #947864;
   border-radius: 50%;
   color: white;
   position: relative;
   top: 0.3em;
+  text-decoration: none;
+}
+.icons a:hover {
+  background-color: red;
 }
 .logo_and_search {
   padding: 0 30px;
